@@ -1,4 +1,4 @@
-# E-commerce application
+# Food order application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 Food order application with React Context, styled with Sass
