@@ -1,0 +1,54 @@
+@import "../../sass/main";
+
+.cart-items {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  max-height: 36rem;
+  overflow: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+
+  &__btn {
+  	cursor: pointer;
+  	background-color: transparent;
+  	border: 1px solid $color-pri-2;
+  	padding: 0.5rem 2rem;
+  	border-radius: 25px;
+  	margin-left: 1rem;
+
+  	&:hover,
+  	&:active {
+  	  background-color: $color-pri-1;
+  	  border-color: $color-pri-1;
+  	  color: $color-white;
+  	}
+  }
+
+  &__close {
+    cursor: pointer;
+    /* position: absolute;
+    top: 1.5rem;
+    right: 1.5rem; */
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: $color-pri-2;
+
+    &:hover,
+    &:active {
+      color: $color-pri-4;
+    }
+  }
+}

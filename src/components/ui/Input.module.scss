@@ -1,0 +1,20 @@
+@import "../../sass/main";
+
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+
+  &__label {
+    font-weight: bolder;
+    margin-right: 1rem;
+  }
+
+  &__input {
+    width: 6rem;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid $color-grey-light;
+    padding-left: 0.5rem;
+  }
+}

@@ -1,0 +1,40 @@
+@import "../../sass/main";
+
+.form {
+  text-align: right;
+
+  button {
+    font: inherit;
+    cursor: pointer;
+    background-color: $color-pri-2;
+    border: 1px solid $color-pri-2;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+
+    &:hover,
+    &:active {
+        background-color: $color-pri-3;
+        border-color: $color-pri-3;
+      }
+  }
+
+}
+
+/* .form button {
+  font: inherit;
+  cursor: pointer;
+  background-color: $color-pri-2;
+  border: 1px solid $color-pri-2;
+  color: white;
+  padding: 0.25rem 2rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: $color-pri-3;
+  border-color: $color-pri-3;
+} */
